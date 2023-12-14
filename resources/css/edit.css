@@ -1,0 +1,89 @@
+body {
+	background-image: url('../images/bg_all.jpg');
+}
+
+.smk {
+	font-family: 'mulisemibold';
+	font-size: 18px;
+}
+
+.visi {
+	font-family: 'mulilight';
+	font-size: 14px;
+}
+
+.nav-orange {
+	background-color: #00923E;
+}
+.navlink {
+	border-bottom: 1px solid #00923E;
+	transition: .35s;
+}
+.navlink.active {
+	border-bottom: 1px solid #fff;
+}
+.navlink:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.hero img{
+	width: 100%;
+}
+
+.title {
+	font-family: 'mulisemibold';
+	font-size: 20px;
+	padding-bottom: 7.5px;
+	border-bottom: 5px solid #ddd
+}
+
+span.tgl {
+	font-size: 12px;
+	font-family: 'mulilight';
+	color: #888;
+	display: block;
+}
+
+
+span.judul a {
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'mulisemibold';
+	color: #00923E;
+	display: inline-block;
+	transition: .35s;
+}
+
+span.judul a:hover {
+	background-color: #00923E;
+	color: white;
+}
+
+.footer {
+	background-color: #00923E;
+	padding: 15px 15px 15px 30px;
+	text-align: center;
+}
+
+.garis {
+    width: 60px;
+    display: block;
+    margin: 50px auto;
+    border: 4px solid #00bfb6;
+    padding: 8px 10px;
+    transition: all 0.5s;
+   -webkit-transition: all 0.5s;
+}
+
+.garis div{
+    height: 5px;
+    background: #fff;
+    margin: 7px 0px 7px 0px;
+    border-radius: 25px;
+    transition: all 0.5s;
+   -webkit-transition: all 0.5s;
+}
+
+.two { width: 35px; }
+.three { width: 50px;}
+.garis:hover div { width: 60px;}
